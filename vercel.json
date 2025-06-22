@@ -1,7 +1,5 @@
 {
-  "build": {
-    "env": {
-      "NPM_CONFIG_USER_AGENT": "npm"
-    }
-  }
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install"
 }
