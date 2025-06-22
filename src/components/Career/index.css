@@ -1,0 +1,247 @@
+@media screen and (min-width: 768px) {
+  .career-card1 {
+    background-image: url('https://res.cloudinary.com/doyw7v77k/image/upload/v1750495325/image_5_ppoizs.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+  }
+  .career-card1-text-card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .career-card1-heading {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Montaga';
+    font-style: normal;
+    line-height: 49px;
+  }
+  .career-card1-para {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Roboto';
+  }
+  .career-card1-image-card {
+    padding: 10px;
+    width: 50%;
+  }
+  .career-card2 {
+    background-image: url('https://res.cloudinary.com/doyw7v77k/image/upload/v1750495874/image_8_p64q6q.jpg');
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+  }
+  .career-card2-heading {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    text-align: center;
+  }
+  .career-card2-image-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .career-card2-image1-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 300px;
+  }
+  .career-card-image {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  .career-card2-image-text {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Roboto';
+  }
+  .career-card3 {
+    background-image: url('https://res.cloudinary.com/doyw7v77k/image/upload/v1750496684/image_20_ylp8rj.jpg');
+    width: 100%;
+    height: 550px;
+    padding: 20px;
+  }
+  .career-card3-heading {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: bold;
+  }
+  .career-card3-form-card1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .career-card3-form-card11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .career-form-label-text {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Roboto';
+    margin-bottom: 15px;
+    align-self: center;
+  }
+  .career-form-input-text {
+    width: 250px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid red;
+    height: 40px;
+  }
+  .career-form-input-textarea {
+    width: 250px;
+    background: transparent;
+    border: 2px solid red;
+    height: 40px;
+  }
+  .career-submit-btn {
+    background-color: #dd5151;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .career-card1 {
+    background-image: url('https://res.cloudinary.com/doyw7v77k/image/upload/v1750495325/image_5_ppoizs.jpg');
+    min-height: 550px;
+    max-width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+  }
+  .career-card1-image-card {
+    order: 0;
+  }
+  .career-card1-text-card {
+    order: 1;
+  }
+  .career-card1-heading {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .career-card1-para {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .career-card1-image {
+    width: 100%;
+    height: 150px;
+  }
+  .career-card2 {
+    background-image: url('https://res.cloudinary.com/doyw7v77k/image/upload/v1750495874/image_8_p64q6q.jpg');
+    min-height: 400px;
+    max-width: 100vw;
+    padding: 20px;
+  }
+  .career-card2-heading {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .career-card2-image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .career-card2-image1-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .career-card-image {
+    width: 250px;
+    height: 150px;
+  }
+  .career-card2-image-text {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .career-card3 {
+    background-image: url('https://res.cloudinary.com/doyw7v77k/image/upload/v1750496684/image_20_ylp8rj.jpg');
+    max-width: 100vw;
+    min-height: 550px;
+    padding: 20px;
+  }
+  .career-card3-heading {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .career-card3-form-card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .career-card3-form-card11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .career-form-label-text {
+    width: 100vw;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Roboto';
+    align-self: center;
+  }
+  .career-form-input-text {
+    width: 250px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid red;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  .career-form-input-textarea {
+    width: 250px;
+    background: transparent;
+    border: 2px solid red;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .career-submit-btn {
+    background-color: #dd5151;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    margin: 50px;
+  }
+}

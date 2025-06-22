@@ -1,0 +1,173 @@
+@media screen and (min-width: 768px) {
+  .services-card1 {
+    background-image: url('https://res.cloudinary.com/doyw7v77k/image/upload/v1750490233/Rectangle_162_dmtkr1.jpg');
+    min-height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 20px 50px;
+  }
+  .services-heading {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .services1-card {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .services1-image-card {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .services1-image {
+    width: 400px;
+    height: 300px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+  }
+  .services1-text-card {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .services1-heading {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto';
+  }
+  .services1-para {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto';
+  }
+  .services2-image-card {
+    order: 1;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .services2-text-card {
+    order: 0;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .services-card2 {
+    background-image: url('https://res.cloudinary.com/doyw7v77k/image/upload/v1750490235/image_6_gypxmt.jpg');
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 0px 50px;
+  }
+  .services-card3 {
+    background-image: url('https://res.cloudinary.com/doyw7v77k/image/upload/v1750490245/Rectangle_179_lqwvmf.jpg');
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 0px 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .services-card1 {
+    background-image: url('https://res.cloudinary.com/doyw7v77k/image/upload/v1750490233/Rectangle_162_dmtkr1.jpg');
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 20px;
+  }
+  .services-heading {
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .services1-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px;
+  }
+  .services1-image-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services2-image-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services1-image {
+    width: 270px;
+    height: 200px;
+  }
+  .services1-text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .services2-text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .services1-heading {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .services1-para {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+  }
+  .services-card2 {
+    background-image: url('https://res.cloudinary.com/doyw7v77k/image/upload/v1750490235/image_6_gypxmt.jpg');
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 20px;
+  }
+  .services-card3 {
+    background-image: url('https://res.cloudinary.com/doyw7v77k/image/upload/v1750490245/Rectangle_179_lqwvmf.jpg');
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 20px;
+  }
+}
